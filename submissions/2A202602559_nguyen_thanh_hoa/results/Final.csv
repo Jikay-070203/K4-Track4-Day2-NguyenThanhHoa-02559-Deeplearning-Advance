@@ -1,0 +1,13 @@
+exp_id,cấu hình,seed,macro-F1 val,macro-F1 test,top-1 test,ECE test,mean ± std qua seed
+F01,convnext_tiny + T04: aug=trivial + suy luận tencrop/prob K=10 + temperature scaling,0,0.9790953040242627,0.9775472636467529,0.9826062161391502,0.005074349369831848,
+F01,convnext_tiny + T04: aug=trivial + suy luận tencrop/prob K=10 + temperature scaling,1,0.9738198052161212,0.9760474737052023,0.9806102081551183,0.005734892611918983,
+F01,convnext_tiny + T04: aug=trivial + suy luận tencrop/prob K=10 + temperature scaling,2,0.9760318634404188,0.9759626634130597,0.981180496150556,0.00585466929284288,
+F01,convnext_tiny + T04: aug=trivial + suy luận tencrop/prob K=10 + temperature scaling (tổng hợp),mean ± std (n=3),0.9763156575602675,0.9765191335883383,0.9814656401482749,0.005554637091531238,F1 test 0.9765 ± 0.0009; top-1 0.9815 ± 0.0010; ECE 0.0056 ± 0.0004
+T00,convnext_tiny + công thức nền + 1 view (mốc T00+I00),0,0.9657529888328347,0.9725973156895414,0.9777587681779298,0.008803968009694943,
+T00,convnext_tiny + công thức nền + 1 view (mốc T00+I00),1,0.9681161488844621,0.9660001331538718,0.9746221842030225,0.012918284981465564,
+T00,convnext_tiny + công thức nền + 1 view (mốc T00+I00),2,0.9725715655992924,0.9728967202040982,0.979469632164243,0.009914385742800211,
+T00,convnext_tiny + công thức nền + 1 view (mốc T00+I00) (tổng hợp),mean ± std (n=3),0.9688135677721963,0.9704980563491704,0.9772835281817317,0.010545546244653573,F1 test 0.9705 ± 0.0039; top-1 0.9773 ± 0.0025; ECE 0.0105 ± 0.0021
+R01,convnext_tiny + T04: aug=trivial + 1 view + fused16 + temperature scaling (thời gian thực),0,,0.9733008015440484,0.9783290561733675,0.0052853909352723796,
+R01,convnext_tiny + T04: aug=trivial + 1 view + fused16 + temperature scaling (thời gian thực),1,,0.9719833533237908,0.9780439121756487,0.004533891508411869,
+R01,convnext_tiny + T04: aug=trivial + 1 view + fused16 + temperature scaling (thời gian thực),2,,0.9755443257322735,0.9803250641573995,0.004410712087254165,
+R01,convnext_tiny + T04: aug=trivial + 1 view + fused16 + temperature scaling (thời gian thực) (tổng hợp),mean ± std (n=3),,0.9736094935333709,0.9788993441688052,0.004743331510312804,F1 test 0.9736 ± 0.0018; top-1 0.9789 ± 0.0012; ECE 0.0047 ± 0.0005
